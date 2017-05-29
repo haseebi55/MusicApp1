@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iei"
+  >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicapp.MainActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rock"
+            android:background="@color/category_Artists"
+            android:textColor="@color/white"
+            android:textSize="43dp"
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_color"
+            android:paddingTop="10sp"
+            android:text="Workout"
+            android:textColor="@color/white"
+            android:textSize="43dp"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_NowPlaying"
+            android:paddingTop="10sp"
+            android:text="Jazz"
+            android:textColor="@color/white"
+            android:textSize="43dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/category_Albums"
+            android:paddingTop="10sp"
+            android:text="Bollywood"
+            android:textColor="@color/white"
+            android:textSize="43dp" />
+
+        <TextView
+            android:id="@+id/MainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:text="Main Menu"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/Albums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:text="Albums"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/NowPlaying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:text="NowPlaying"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:text="This Acitivity contains a list of playlist that user can create by himself by choosing a number of songs and then this list will be automatically be saved "
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+

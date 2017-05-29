@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+    <TextView
+        android:id="@+id/NowPlaying"
+        style="@style/CategoryStyle"
+        android:background="@color/category_NowPlaying"
+        android:text="Now Playing"
+        />
+    <TextView
+        android:id="@+id/Playlists"
+        style="@style/CategoryStyle"
+        android:background="@color/category_Playlists"
+        android:text="Playlists"
+        />
+    <TextView
+        android:id="@+id/Artists"
+        style="@style/CategoryStyle"
+        android:background="@color/category_Artists"
+        android:text="Artists"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Building the music player will involve using the ContentResolver class to retrieve tracks on the device, the MediaPlayer class to play audio and the MediaController class to control playback. We will also use a Service instance to play audio when the user is not directly interacting with the app. "
+        android:textSize="20sp"/>
+
+
+
+
+
+</LinearLayout>
