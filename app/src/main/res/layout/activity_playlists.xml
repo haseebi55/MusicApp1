@@ -63,14 +63,7 @@
             android:text="Main Menu"
             android:textColor="@color/white"
             android:textSize="40dp" />
-        <TextView
-            android:id="@+id/Albums"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.04"
-            android:text="Albums"
-            android:textColor="@color/white"
-            android:textSize="40dp" />
+
         <TextView
             android:id="@+id/NowPlaying"
             android:layout_width="match_parent"

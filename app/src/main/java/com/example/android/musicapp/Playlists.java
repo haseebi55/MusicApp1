@@ -34,15 +34,7 @@ public class Playlists extends AppCompatActivity {
                 startActivity(MainMenuIntent);
             }
         });
-        // Set a click listener on that View
-        Album.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent AlbumIntent = new Intent(Playlists.this, Album.class);
-                startActivity(AlbumIntent);
-            }
-        });
+
 
     }
 }
