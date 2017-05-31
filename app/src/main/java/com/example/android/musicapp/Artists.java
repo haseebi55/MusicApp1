@@ -15,7 +15,7 @@ public class Artists extends AppCompatActivity {
        ImageView NowPlaying = (ImageView) findViewById(R.id.NowPlaying);
         ImageView Home = (ImageView) findViewById(R.id.Home);
         NowPlaying.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the the View is clicked on.
+            // The code in this method will be executed when the View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent NowPlayingIntent = new Intent(Artists.this, NowPlaying.class);
@@ -23,7 +23,7 @@ public class Artists extends AppCompatActivity {
             }
         });
         Home.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the the View is clicked on.
+            // The code in this method will be executed when the View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent NowPlayingIntent = new Intent(Artists.this, MainActivity.class);

@@ -7,7 +7,7 @@
 
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/Playlist1"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@color/category_NowPlaying"
@@ -20,7 +20,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="28dp" />
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/Playlist2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@color/category_Artists"
@@ -28,12 +28,12 @@
         android:text="Daft Punk"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:layout_alignBaseline="@+id/textView4"
-        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignBaseline="@+id/Playlist1"
+        android:layout_alignBottom="@+id/Playlist1"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/Playlist4"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@color/category_Playlists"
@@ -41,12 +41,12 @@
         android:text="Arctic Monkeys"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:layout_below="@+id/textView4"
-        android:layout_toLeftOf="@+id/textView5"
-        android:layout_toStartOf="@+id/textView5" />
+        android:layout_below="@+id/Playlist1"
+        android:layout_toLeftOf="@+id/Playlist2"
+        android:layout_toStartOf="@+id/Playlist2" />
        " />
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/Playlist3"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@color/category_Albums"
@@ -54,10 +54,10 @@
         android:text="deadMau5"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:layout_alignBaseline="@+id/textView6"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_toRightOf="@+id/textView6"
-        android:layout_toEndOf="@+id/textView6" />
+        android:layout_alignBaseline="@+id/Playlist4"
+        android:layout_alignBottom="@+id/Playlist4"
+        android:layout_toRightOf="@+id/Playlist4"
+        android:layout_toEndOf="@+id/Playlist4" />
 
     <ImageView
         android:id="@+id/Home"
@@ -81,11 +81,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:text="This activity will display a list of Artists that the user can choose from.This list will be stored inside the device's memory and each song will be listed according to the Artist that the user chose"
-        android:layout_below="@+id/textView6"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/Playlist4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="24dp" />
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

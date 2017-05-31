@@ -12,11 +12,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // Find the View that shows the numbers category
+        // Find the View that shows the that category
         TextView NowPlaying = (TextView) findViewById(R.id.NowPlaying);
         TextView Playlists = (TextView) findViewById(R.id.Playlists);
         TextView Artists = (TextView) findViewById(R.id.Artists);
-        TextView Album = (TextView) findViewById(R.id.Albums);
         // Set a click listener on that View
         NowPlaying.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the the View is clicked on.
@@ -44,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ArtistsIntent);
             }
         });
-
     }
-    }
+}
 
