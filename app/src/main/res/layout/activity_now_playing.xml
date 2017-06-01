@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Daft Punk- Game of Love"
+        android:text="Daft Punk - Game of Love"
         android:textSize="30sp"
         android:textColor="@color/white"
         android:id="@+id/textView3"
