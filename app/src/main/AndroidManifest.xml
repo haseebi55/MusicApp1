@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:configChanges="keyboardHidden|screenSize|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,12 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NowPlaying"
-            android:label="Now Playing"/>
-        <activity android:name=".Artists"
-            android:label= "Artists"/>
-        <activity android:name=".Playlists"
-            android:label="Playlists"></activity>
+        <activity
+            android:name=".NowPlaying"
+            android:label="Now Playing" />
+        <activity
+            android:name=".Artists"
+            android:label="Artists" />
+        <activity
+            android:name=".Playlists"
+            android:label="Playlists" />
+        <activity android:name=".PaymentActivity"></activity>
     </application>
 
 </manifest>

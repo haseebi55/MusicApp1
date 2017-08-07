@@ -11,7 +11,7 @@ public class NowPlaying extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-setContentView(R.layout.activity_now_playing);
+        setContentView(R.layout.activity_now_playing);
         ImageView Home = (ImageView) findViewById(R.id.Home);
         ImageView Playlist = (ImageView) findViewById(R.id.Playlist);
         Home.setOnClickListener(new View.OnClickListener() {

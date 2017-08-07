@@ -17,6 +17,12 @@
         tools:context="com.example.android.musicapp.MainActivity">
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Playlists" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.04"
@@ -54,9 +60,6 @@
             android:text="Bollywood"
             android:textColor="@color/white"
             android:textSize="43sp" />
-
-
-
 
         <TextView
             android:layout_width="match_parent"
