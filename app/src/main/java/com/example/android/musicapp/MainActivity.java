@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         TextView NowPlaying = (TextView) findViewById(R.id.NowPlaying);
         TextView Playlists = (TextView) findViewById(R.id.Playlists);
         TextView Artists = (TextView) findViewById(R.id.Artists);
+        TextView Payment = (TextView) findViewById(R.id.Payment);
         // Set a click listener on that View
         NowPlaying.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the the View is clicked on.
@@ -43,6 +44,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ArtistsIntent);
             }
         });
+        // Set a click listener on that View
+        Payment.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the the View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent PaymentIntent = new Intent(MainActivity.this, PaymentActivity.class);
+                startActivity(PaymentIntent);
+            }
+        });
+
     }
 }
-

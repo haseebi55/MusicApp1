@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.TextView;
 
 public class PaymentActivity extends AppCompatActivity {
 
@@ -12,8 +12,8 @@ public class PaymentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
-        ImageView NowPlaying = (ImageView) findViewById(R.id.NowPlaying);
-        ImageView MainMenu = (ImageView) findViewById(R.id.MainMenu);
+        TextView NowPlaying = (TextView) findViewById(R.id.NowPlaying);
+        TextView MainMenu = (TextView) findViewById(R.id.MainMenu);
         // Set a click listener on that View
         NowPlaying.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the  View is clicked on.

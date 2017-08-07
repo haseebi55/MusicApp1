@@ -30,6 +30,14 @@
         android:background="@color/category_Artists"
         android:text="Artists"
         />
+
+    <TextView
+        android:id="@+id/Payment"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEA00"
+        android:text="Payment" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

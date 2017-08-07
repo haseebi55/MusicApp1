@@ -16,22 +16,26 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <Button
+    <TextView
         android:id="@+id/MainMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Main Menu"
+        android:background="@color/category_Albums"
+        android:textSize="30sp"
         android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="13dp" />
 
-    <Button
+    <TextView
+        android:background="@color/category_NowPlaying"
         android:id="@+id/NowPlaying"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Now playing"
+        android:textSize="30sp"
         android:layout_alignBaseline="@+id/MainMenu"
         android:layout_alignBottom="@+id/MainMenu"
         android:layout_toRightOf="@+id/textView4"
